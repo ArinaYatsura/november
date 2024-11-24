@@ -16,7 +16,7 @@ public class StringFilter
             }
         }
 
-* 2. Создание массива результата:
+ 2. Создание массива результата:
 string[] result = new string[shortStringCount];
 
         // 3. Заполнение массива результата:
@@ -32,7 +32,6 @@ string[] result = new string[shortStringCount];
 
         return result;
     }
-
     public static string[] GetInputStrings()
     {
         Console.WriteLine("Введите строки, разделенные пробелами (для завершения введите пустую строку):");
@@ -45,7 +44,6 @@ string[] result = new string[shortStringCount];
 
         return line.Split(' ');
     }
-
     public static void Main(string[] args)
     {
         string[] inputArray = GetInputStrings();
